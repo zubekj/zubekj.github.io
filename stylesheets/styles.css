@@ -322,3 +322,12 @@ footer {
     color:#444;
   }
 }
+
+.profile_pic {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.name_photo_email {
+    text-align: center;
+}
