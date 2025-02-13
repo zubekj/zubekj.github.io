@@ -1,0 +1,45 @@
+h1, h2 {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#banner {
+  //position: fixed;
+//  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #f9f9f9;
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  z-index: 999999;
+  background-image: url("banner1.jpg");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 60px;
+  //margin-bottom: .5em;
+  //margin-top: .5em;
+  //padding-right: 2em;
+}
+
+.quote {
+  font-size: 1.2em;
+}
+
+.title-container {
+  display: inline;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1400px) {
+    .title-container {
+        background: #f9f9f9;
+    }
+}
